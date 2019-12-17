@@ -9,10 +9,8 @@ actor = {
 end
 
 def monopoly
-	monopoly = {
-	  :railroads = {}
-	}
- 
+	monopoly = {}
+  return monopoly:railroads = {}
 end
 
 def monopoly_with_second_tier
